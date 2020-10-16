@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+header {
+  background-color: #333;
+  color:#333;
+  padding: 5%;
+}
+
+
+body {
+  background-color: #171717;
+  font-family: "gotham", helvetica, verdana, sans-serif;
+}
+
+
+h1 {
+  font-size: 48px;
+  color: #FFA985;
+  text-transform: capitalize;
+  font-family: 'Source Code Pro';
+}
+
+
+h2 {
+  font-family: georgia, times, serif;
+  font-size: -16em;
+  color:#FFA985;
+  text-transform: capitalize;
+  font-family: 'Source Code Pro';
+}
+
+
+h3 {
+  font-family: georgia, times, serif;
+  font-size: -12em;
+  color:#FFA985;
+  text-transform: capitalize;
+}
+
+
+nav {
+  background-color: blanchedalmond;
+}
+
+nav a:link {
+  background-color: blanchedalmond;
+  color:#222;
+  padding: 1% 2%;
+  display:inline-block;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #555;
+}
+
+nav a:hover {
+  color: blanchedalmond;
+  background-color: #333;
+}
+/* a class for the links */
+nav a.active {
+  color: blanchedalmond;
+  background-color: #333;
+}
+
+
+section.right {
+  background:#222;
+  width: 50%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 4px;
+}
+
+section.profile {
+  background:#222;
+  padding: 4px;
+  display: flex;
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  color:#FFF7E0;
+  padding: 12px;
+  padding-bottom: 36px;
+}
+
+
+a:link {
+  color:#FFFFFF;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+
+a:visited {
+  color:beige;
+}
+
+
+a:hover {
+  color:#333;
+}
+
+
+a:active {
+  color:#333;
+}
+
+
+footer {
+  padding: 2%;
+  background-color: #333;
+  color: #FFA985;
+  font-size: 16px;
+  font-family: georgia, times, serif;
+  font-style: italic;
+
+}
