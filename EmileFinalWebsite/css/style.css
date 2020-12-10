@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap');
+
+* {
+background-color: #ffffff;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #442E7C;
+  color:#ffffff;
+  padding: 4vh;
+      text-align: right;
+}
+
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans","Raleway", helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+  font-size: 48px;
+  background-color: #442E7C;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: "Open Sans","Raleway", helvetica, Arial, sans-serif;
+}
+
+
+h2 {
+  font-size: 24px;
+  color:#312C3D;
+  font-family: "Open Sans","Raleway", helvetica, Arial, sans-serif;
+}
+
+
+h3 {
+  font-family: "Open Sans","Raleway", helvetica, Arial, sans-serif;
+  font-size: -12em;
+  color:#000000;
+  text-transform: capitalize;
+  display:flex;
+  justify-content: flex-end;
+    padding: 8px;
+}
+
+
+h4 {
+  font-family: "Open Sans","Raleway", Helvetica, Arial, sans-serif;
+  font-size: -12em;
+  color:#000000;
+  line-height: 48px;
+  padding: 24px;
+  padding-bottom: 1px;
+}
+
+
+nav {
+
+  text-align: right;
+}
+
+nav a:link {
+  background-color: red;
+  color:#000000;
+  padding: 10% 10%;
+  display:inline-block;
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+
+nav a:visited {
+  color: #000000;
+}
+
+nav a:hover {
+  color: #000000;
+  background-color: #000000;
+}
+/* a class for the links */
+nav a.active {
+  color: #000000;
+  background-color: #333;
+}
+
+
+section.right {
+  background:#ffffff;
+  width: 50%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 4px;
+}
+
+section.profile {
+  background:#ffffff;
+  padding: 60px;
+  display: flex;
+}
+
+
+p {
+  font-size: 32px;
+  line-height: 46px;
+  color:#000000;
+  padding: 12px;
+  padding-bottom: 16px;
+}
+
+
+a:link {
+  color:#F1F0F4;
+  background-color: #442E7C;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+
+a:visited {
+  color:#F1F0F4;
+  background-color: #442E7C;
+
+}
+
+
+a:hover {
+  color:#D42128;
+  text-decoration: underline;
+  transition: color .3s ease-in-out;
+}
+
+
+a:active {
+  color:#333;
+}
+
+
+footer {
+  padding: 5%;
+  background-color: #442E7C;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Open Sans","Raleway", Helvetica, Arial, sans-serif;
+  font-style: italic;
+
+}
+
+
+.button {
+  background-color: #D42128;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 48px;
+  margin: 40px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 6px;}
+
+
+.hero {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Canadian-flag.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.hero h1 {
+  font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+    color: black;
+
+}
+
+.hero a {
+
+}
+
+
+.herd {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Max.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.herd h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+
+.hert {
+    width:100%;
+    height: 60vh;
+    background: url(../images/Canadian-flag.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.hert h1 {
+  font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+    color: black;
+
+}
+
+.hert a {
+
+}
+
+
+.arti1 {
+    width:100%;
+    height: 60vh;
+    background: url(../images/MaxAnnouncement.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.hert h1 {
+  font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+    color: black;
+
+}
+
+.plat1 {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Terrorism.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.plat1 h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+.plat2 {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Employment.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.plat2 h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+.plat3 {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Police.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.plat3 h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+
+.plat4 {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Housing.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.plat4 h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+.plat5 {
+    width:100%;
+    height: 90vh;
+    background: url(../images/ForeignAid.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.plat5 h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+.plat6 {
+    width:100%;
+    height: 90vh;
+    background: url(../images/Immigration.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.plat6 h1 {
+	font-size:72px;
+  background-color:transparent;
+    font-weight:normal;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  .container.big {
+    width: 100%;
+    max-width: 1500px;
+    min-width: 1200px;
+  }
+
+
+
+/* Cells */
+
+  .\31 2u { width: 100% }
+  .\31 1u { width: 91.6666666667% }
+  .\31 0u { width: 83.3333333333% }
+  .\39 u { width: 75% }
+  .\38 u { width: 66.6666666667% }
+  .\37 u { width: 58.3333333333% }
+  .\36 u { width: 50% }
+  .\35 u { width: 41.6666666667% }
+  .\34 u { width: 33.3333333333% }
+  .\33 u { width: 25% }
+  .\32 u { width: 16.6666666667% }
+  .\31 u { width: 8.3333333333% }
+  .\-11u { margin-left: 91.6666666667% }
+  .\-10u { margin-left: 83.3333333333% }
+  .\-9u { margin-left: 75% }
+  .\-8u { margin-left: 66.6666666667% }
+  .\-7u { margin-left: 58.3333333333% }
+  .\-6u { margin-left: 50% }
+  .\-5u { margin-left: 41.6666666667% }
+
+
+
+  .row > * {
+    padding: 40px 0 0 40px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .row + .row > * {
+    padding-top: 40px;
+  }
+
+  .row {
+    margin-left: -40px;
+  }
